@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "720679741006",
+    "firebase_url": "https://tramway-a251a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tramway-a251a",
+    "storage_bucket": "tramway-a251a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720679741006:android:5a505264c4092a1960451f",
+        "android_client_info": {
+          "package_name": "hr.ferit.benjaminmontibeler.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720679741006-7in8ur0ks4jujj9lfslmvjir5ani5a8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClw9wiMSS9ZFkrWNm5vLKBuZuq8u-1fpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720679741006-7in8ur0ks4jujj9lfslmvjir5ani5a8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720679741006:android:17235a136ab948bb60451f",
+        "android_client_info": {
+          "package_name": "hr.ferit.benjaminmontibeler.tramway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720679741006-7in8ur0ks4jujj9lfslmvjir5ani5a8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClw9wiMSS9ZFkrWNm5vLKBuZuq8u-1fpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720679741006-7in8ur0ks4jujj9lfslmvjir5ani5a8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720679741006:android:9fe7596ad4611e5560451f",
+        "android_client_info": {
+          "package_name": "hr.ferit.benjaminmontibeler.zavrsni"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720679741006-7in8ur0ks4jujj9lfslmvjir5ani5a8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClw9wiMSS9ZFkrWNm5vLKBuZuq8u-1fpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720679741006-7in8ur0ks4jujj9lfslmvjir5ani5a8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

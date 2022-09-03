@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">TramWay</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="stop_array">
+        <item>Autobusni kolodvor</item>
+        <item>Bana Josipa Jelačića</item>
+        <item>Bikara okretište</item>
+        <item>Dom zdravlja</item>
+        <item>Donji grad</item>
+        <item>Dunavska</item>
+        <item>Dvorac Pejačević</item>
+        <item>Gacka</item>
+        <item>Gradski vrt</item>
+        <item>Huttlerova</item>
+        <item>KBC Osijek</item>
+        <item>Kampus</item>
+        <item>Kolodvorska</item>
+        <item>Krbavska</item>
+        <item>Ledine</item>
+        <item>M. Divaltova-Kirova</item>
+        <item>Mačkamama</item>
+        <item>Mlinska</item>
+        <item>Podgrađe</item>
+        <item>Pošta</item>
+        <item>Remiza</item>
+        <item>Retfala - Billa</item>
+        <item>Retfala - dom zdravlja</item>
+        <item>S. Radića</item>
+        <item>Sakuntala park</item>
+        <item>Solarski trg</item>
+        <item>Strelište pampas</item>
+        <item>Svačićeva</item>
+        <item>Svilajska</item>
+        <item>Trg Ante Starčevića</item>
+        <item>Trg bana J. Jelačića Tržnica</item>
+        <item>Tržnica</item>
+        <item>Tuđmanov most</item>
+        <item>Tvrđa</item>
+        <item>Umaška</item>
+        <item>Vatrogasna</item>
+        <item>Višnjevac centar</item>
+        <item>Višnjevac okretište</item>
+        <item>Zeleno polje okretište</item>
+        <item>Đakovština</item>
+        <item>Željeznički kolodvor</item>
+        <item>Županijska</item>
+    </string-array>
+
+</resources>

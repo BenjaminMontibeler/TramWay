@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--fragment to display our maps-->
+    <fragment xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+
+    <!--search view to search our location-->
+
+
+    <AutoCompleteTextView
+        android:id="@+id/idSearchView1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:elevation="5dp"
+        android:fadingEdge="horizontal"
+        android:fontFamily="@font/san_francisco"
+        android:hint="Startin point"
+        android:textAlignment="center"
+        app:iconifiedByDefault="false"
+        app:queryHint="Starting point"
+        tools:context=".MapsActivity"
+        android:textColor="@color/black"/>
+
+    <AutoCompleteTextView
+        tools:context=".MapsActivity"
+        android:id="@+id/idSearchView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/idSearchView1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white"
+        android:elevation="5dp"
+        android:hint="Destination"
+        app:iconifiedByDefault="false"
+        app:queryHint="Destination"
+        android:fontFamily="@font/san_francisco"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <Button
+        tools:context=".MapsActivity"
+        android:id="@+id/idbutton"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/idSearchView2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#f5a53d"
+        android:elevation="8dp"
+        android:hint="Search trams"
+        app:iconifiedByDefault="false"
+        app:queryHint="Destination"
+        android:fontFamily="@font/san_francisco"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <TextView
+        tools:context=".MapsActivity"
+        android:id="@+id/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/idbutton"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white"
+        android:elevation="5dp"
+        android:hint=""
+        app:iconifiedByDefault="false"
+        app:queryHint="Destination"
+        android:fontFamily="@font/san_francisco"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
